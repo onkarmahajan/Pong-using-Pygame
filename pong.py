@@ -95,7 +95,7 @@ pygame.display.set_caption("Pong")
 clock = pygame.time.Clock()
 
 #Game Font
-game_font = pygame.font.Font("FlappyBird/04B_19__.TTF", 20)
+game_font = pygame.font.Font("04B_19__.TTF", 20)
 
 #Game Colours
 bg_colour = pygame.Color("grey12")
@@ -107,8 +107,8 @@ player = pygame.Rect(screen_width - 5, screen_height/2 - 70, 5, 90)
 opponent = pygame.Rect(0, screen_height/2 - 70, 5, 90)
 
 #Game Sound
-score_sound = pygame.mixer.Sound("FlappyBird/audio_point.wav")
-end_sound = pygame.mixer.Sound("FlappyBird/audio_die.wav")
+score_sound = pygame.mixer.Sound("audio_point.wav")
+end_sound = pygame.mixer.Sound("audio_die.wav")
 
 #Game variables
 ball_speed_x = 4 * random.choice((1, -1))
